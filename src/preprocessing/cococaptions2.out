@@ -1,0 +1,146 @@
+/opt/conda/lib/python3.8/site-packages/transformers/generation/utils.py:1411: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed soon, in a future version. Please use a generation configuration file (see https://huggingface.co/docs/transformers/main_classes/text_generation )
+  warnings.warn(
+>subject:"a woman"
+>objects:["the dining area", "the table"]
+>predicates:["stands in", "at"]
+  0%|          | 0/5000 [00:00<?, ?it/s]  0%|          | 1/5000 [00:02<3:02:09,  2.19s/it]  0%|          | 2/5000 [00:04<3:09:45,  2.28s/it]  0%|          | 3/5000 [00:07<3:31:53,  2.54s/it]  0%|          | 4/5000 [00:09<3:16:48,  2.36s/it]  0%|          | 5/5000 [00:11<3:16:00,  2.35s/it]  0%|          | 6/5000 [00:14<3:14:01,  2.33s/it]  0%|          | 7/5000 [00:16<3:15:38,  2.35s/it]  0%|          | 8/5000 [00:18<3:09:57,  2.28s/it]  0%|          | 9/5000 [00:20<3:06:00,  2.24s/it]  0%|          | 10/5000 [00:22<3:04:33,  2.22s/it]  0%|          | 11/5000 [00:25<3:01:06,  2.18s/it]  0%|          | 12/5000 [00:27<3:01:13,  2.18s/it]  0%|          | 13/5000 [00:29<2:57:26,  2.13s/it]  0%|          | 14/5000 [00:31<2:56:00,  2.12s/it]  0%|          | 15/5000 [00:33<3:00:18,  2.17s/it]  0%|          | 16/5000 [00:35<2:58:07,  2.14s/it]  0%|          | 17/5000 [00:38<3:03:09,  2.21s/it]  0%|          | 18/5000 [00:40<3:19:26,  2.40s/it]  0%|          | 20/5000 [00:43<2:41:56,  1.95s/it]  0%|          | 21/5000 [00:45<2:46:47,  2.01s/it]  0%|          | 22/5000 [00:48<2:53:54,  2.10s/it]sentence: A woman stands in the dining area at the table.
+>subject:"woman"
+>objects:["the dining area", "the table"]
+>predicates:["stands in", "at"]
+-------------------------
+sentence: A big burly grizzly bear is show with grass in the background.
+>subject:"a big burly grizzly bear"
+>objects:["grass", "background"]
+>predicates:["is shown", "with"]
+-------------------------
+sentence: a bed room with a neatly made bed a window and a book shelf
+>subject:"a bed"
+>objects:["room", "bed", "window", "book shelf"]
+>predicates:["with", "neatly made", "window", "book shelf"]
+-------------------------
+sentence: A stop sign installed upside down on a street corner
+>subject:"a stop sign"
+>objects:["installed", "upside down"]
+>predicates:["on", "street corner"]
+-------------------------
+sentence: Three teddy bears, each a different color, snuggling together.
+>subject:"three teddy bears"
+>objects:["each a different color", "snuggling together"]
+>predicates:["snuggling together"]
+-------------------------
+sentence: a woman standing on skiis while posing for the camera
+>subject:"a woman"
+>objects:["skiis", "camera"]
+>predicates:["makes a face", "standing on"]
+-------------------------
+sentence: Stark white appliances stand out against brown wooden cabinets.
+>subject:"stark"
+>objects:["white appliances", "brown wooden cabinets"]
+>predicates:["stand out", "against"]
+-------------------------
+sentence: A couple of men play baseball and the batter runs for base.
+>subject:"a couple of men"
+>objects:["baseball", "base"]
+>predicates:["play", "runs for"]
+-------------------------
+sentence: Someone playing in a tennis tournament with a crowd looking on.
+>subject:"someone"
+>objects:["a tennis tournament", "a crowd"]
+>predicates:["is playing", "looking on"]
+-------------------------
+sentence: A group of kids posing for a picture on a tennis court.
+>subject:"group of kids"
+>objects:["picture", "tennis court"]
+>predicates:["posing for", "on"]
+-------------------------
+sentence: A waterway under a bridge with people sitting down and a woman taking a photo.
+>subject:"waterway"
+>objects:["bridge", "people", "woman"]
+>predicates:["taking a photo"]
+-------------------------
+sentence: A woman checking her cell phone with a hello kitty case.
+>subject:"woman"
+>objects:["cell phone", "hello kitty case"]
+>predicates:["checking", "with"]
+-------------------------
+sentence: Several children on a small  indoor kiddie train.
+>subject:"several children"
+>objects:["a small indoor kiddie train"]
+>predicates:["on"]
+-------------------------
+sentence: A plate with a burger that is halfway eaten. 
+>subject:"a plate"
+>objects:["burger", "halfway eaten"]
+>predicates:["is", "halfway"]
+-------------------------
+sentence: Black and white of a person wearing a wetsuit standing on a surfboard and holding out a paddle, in a large body of water outside.
+>subject:"person"
+>objects:["wetsuit", "surfboard", "paddle"]
+>predicates:["standing", "holding"]
+-------------------------
+sentence: A picture of an iMac desktop next to a Mac laptop on a desk. 
+>subject:"an imac desktop"
+>objects:["a mac laptop", "a desk"]
+>predicates:["next to"]
+-------------------------
+sentence: California traffic goes by road signs on an overpass indicating famous Hollywood streets.
+>subject:"california traffic"
+>objects:["road signs", "an overpass"]
+>predicates:["goes by", "indicating"]
+-------------------------
+sentence: a red double decker bus that is in the middle of the road
+>subject:"a red double decker bus"
+>objects:["the road", "traffic"]
+>predicates:["makes its way through", "in the middle of"]
+-------------------------
+sentence: The large cat is resting comfortably behind the laptop screen. 
+>subject:"a person"
+>objects:["the snow", "skis"]
+>predicates:["makes her way through", "on"]
+
+now, answer the following question while being as succinct as possible (no explanations or details apart from the ones i asked for)-
+question:
+>sentence:the large cat is resting comfortably behind the laptop screen.
+-------------------------
+sentence: Two planes fly over a bridge in Sydney, Australia, with the Sydney Opera House in the background.
+>subject:"planes"
+>objects:["bridge", "sydney", "australia", "sydney opera house"]
+>predicates:["fly over", "in", "background"]
+-------------------------
+sentence: A baby giraffe drinking milk from it's mother in a field.
+>subject:"a baby giraffe"
+>objects:["its mother", "a field"]
+>predicates:["drinking", "in"]
+-------------------------
+sentence: View of an apartment room with a bed an table and a view out the window.
+>subject:"an apartment room"
+>objects:["bed", "table", "view out the window"]
+>predicates:["view of", "in"]
+-------------------------
+Traceback (most recent call last):
+  File "cococaptions2.py", line 113, in <module>
+    intermediate_output = get_objects_new(gptq_model, gptq_tokenizer, chosen_caption).strip()
+  File "cococaptions2.py", line 82, in get_objects_new
+    return generate(gptq_model, gptq_tokenizer, template(sentence))
+  File "cococaptions2.py", line 17, in generate
+    out = gptq_model.generate(
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/transformers/generation/utils.py", line 1642, in generate
+    return self.sample(
+  File "/opt/conda/lib/python3.8/site-packages/transformers/generation/utils.py", line 2724, in sample
+    outputs = self(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 809, in forward
+    outputs = self.model(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 714, in forward
+    hidden_states = self.norm(hidden_states)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 88, in forward
+    hidden_states = hidden_states * torch.rsqrt(variance + self.variance_epsilon)
+KeyboardInterrupt
+  0%|          | 22/5000 [00:49<3:07:47,  2.26s/it]

@@ -14,8 +14,9 @@ from configs.data_configs import data_configs
 def prepare_classes(class_list_path):
 	tqdm.write("Preparing class list ...")
 
-	class_list = scipy.io.loadmat(class_list_path)["class_names"]
-	
+	class_list = scipy.io.loadmat(class_list_path)["class_names"].tolist()[0]
+	class_list = [class_name.item() for class_name in class_list]
+	print(class_list)	
 	tqdm.write("Done!")
 	tqdm.write(" ")
 	return class_list
